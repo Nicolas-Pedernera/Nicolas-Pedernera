@@ -15,6 +15,9 @@ I work across the full stack of a real fintech product: backend APIs, real-time 
 
 ## Featured projects
 
+**[order-matching-engine](https://github.com/Nicolas-Pedernera/order-matching-engine)**
+A limit order book with price-time priority matching, built from scratch — market/limit orders, partial fills, multi-level book walking, and cancellation, with 24 tests covering the edge cases that break naive implementations.
+
 **[realtime-sync-engine](https://github.com/Nicolas-Pedernera/realtime-sync-engine)**
 Real-time data sync layer: exponential backoff reconnection, per-key throttled broadcast, and multi-client fan-out. Includes a live dashboard connected to a real exchange price feed.
 
