@@ -1,5 +1,18 @@
 const links=[...document.querySelectorAll('.nav nav a')];const sections=[...document.querySelectorAll('main section[id]')];const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id))}})},{rootMargin:'-35% 0px -55%'});sections.forEach(s=>observer.observe(s));
 
+// Project cards: whole card clickable to detail page, inner GitHub link still works standalone
+document.querySelectorAll('.project[data-href]').forEach(card=>{
+  const dest=card.getAttribute('data-href');
+  function go(){ window.location.href=dest; }
+  card.addEventListener('click',(e)=>{
+    if(e.target.closest('a')) return; // let the inner GitHub link behave normally
+    go();
+  });
+  card.addEventListener('keydown',(e)=>{
+    if(e.key==='Enter' || e.key===' '){ e.preventDefault(); go(); }
+  });
+});
+
 // Hero title typewriter effect
 (function(){
   const titleEl=document.getElementById('typed-title');

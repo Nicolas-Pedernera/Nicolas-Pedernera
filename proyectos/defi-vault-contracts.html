@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contratos de staking centrados en seguridad: patrón CEI, reentrancy guard y tests adversariales.">
+  <title>DeFi Vault Contracts — Nicolás Pedernera</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="bg-fx" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+  <header class="nav">
+    <a class="brand" href="../index.html">Nicolás Pedernera</a>
+    <nav>
+      <a href="../index.html#proyectos">&larr; Volver a proyectos</a>
+    </nav>
+    <div class="nav-icons">
+      <a class="icon-btn" href="https://github.com/Nicolas-Pedernera" target="_blank" rel="noreferrer" aria-label="GitHub"><svg class="btn-icon" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section project-detail">
+      <p class="kicker">&lt;Proyecto/&gt;</p>
+      <h1>DeFi Vault Contracts</h1>
+      <p class="lede">Contratos de staking centrados en seguridad: patrón CEI, reentrancy guard y tests adversariales.</p>
+      <div class="tags project-detail-tags"><span>Solidity</span><span>Hardhat</span><span>Chai</span></div>
+
+      <div class="project-detail-banner"><svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg"><polygon points="167.6,62.5 167.6,117.5 120.0,145.0 72.4,117.5 72.4,62.5 120.0,35.0" fill="none" stroke="#8B6CFF" stroke-width="1.4" opacity="0.5"/><polygon points="267.6,122.5 267.6,177.5 220.0,205.0 172.4,177.5 172.4,122.5 220.0,95.0" fill="none" stroke="#8B6CFF" stroke-width="1.4" opacity="0.5"/><polygon points="167.6,182.5 167.6,237.5 120.0,265.0 72.4,237.5 72.4,182.5 120.0,155.0" fill="none" stroke="#8B6CFF" stroke-width="1.4" opacity="0.5"/><polygon points="367.6,62.5 367.6,117.5 320.0,145.0 272.4,117.5 272.4,62.5 320.0,35.0" fill="none" stroke="#8B6CFF" stroke-width="1.4" opacity="0.5"/><polygon points="367.6,182.5 367.6,237.5 320.0,265.0 272.4,237.5 272.4,182.5 320.0,155.0" fill="none" stroke="#8B6CFF" stroke-width="1.4" opacity="0.5"/><polygon points="467.6,122.5 467.6,177.5 420.0,205.0 372.4,177.5 372.4,122.5 420.0,95.0" fill="none" stroke="#8B6CFF" stroke-width="1.4" opacity="0.5"/><path d="M300 90 L340 108 L340 155 Q340 195 300 215 Q260 195 260 155 L260 108 Z" fill="none" stroke="#8B6CFF" stroke-width="2.5"/><path d="M283 152 l12 14 l24 -30" fill="none" stroke="#8B6CFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+
+      <div class="project-detail-body">
+        <p>Un vault de staking en Solidity diseñado alrededor de patrones de seguridad reales, no solo para que funcione: ordenamiento CEI (Checks-Effects-Interactions) y un reentrancy guard explícito.</p>
+        <p>La seguridad no se afirma, se prueba: el test suite incluye ataques activos de reentrancy contra el propio contrato, para demostrar que el guard efectivamente lo detiene.</p>
+        <h3>Qué resuelve</h3>
+        <ul class="project-detail-list"><li>Patrón CEI (Checks-Effects-Interactions)</li><li>Reentrancy guard implementado y testeado</li><li>Tests adversariales que atacan el contrato activamente</li><li>Escrito con Hardhat y Chai</li></ul>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/Nicolas-Pedernera/defi-vault-contracts" target="_blank" rel="noreferrer"><svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="btn-icon" style="margin-right:8px;vertical-align:-4px"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>Ver código en GitHub</a>
+        <a class="btn" href="../index.html#proyectos">Volver a proyectos</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-mark" href="../index.html#inicio">&lt;Dev/&gt;</a>
+    <p class="footer-credit">Nicolás Pedernera — DeFi Vault Contracts</p>
+    <nav class="footer-nav">
+      <a href="../index.html#inicio">Inicio</a>
+      <a href="../index.html#proyectos">Proyectos</a>
+      <a href="../index.html#contacto">Contacto</a>
+    </nav>
+    <p class="footer-rights">© 2026 Nicolás Pedernera</p>
+  </footer>
+</body>
+</html>

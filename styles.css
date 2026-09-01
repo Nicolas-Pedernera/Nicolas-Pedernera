@@ -21,6 +21,7 @@ img{max-width:100%;display:block}
 .btn-icon{width:18px;height:18px}
 .contact-icon{width:22px;height:22px;color:var(--accent);margin-bottom:16px}
 .contact-icon-img{width:26px;height:26px;object-fit:contain;margin-bottom:16px}
+.zendx-icon{display:inline-block;width:26px;height:26px;margin-bottom:16px;background-color:var(--accent);-webkit-mask-image:url('assets/zendx-logo.png');mask-image:url('assets/zendx-logo.png');-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
 
 /* ambient background */
 .bg-fx{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
@@ -114,6 +115,22 @@ header,main,footer{position:relative;z-index:1}
 .tags{display:flex;gap:10px;flex-wrap:wrap}
 .tags span{display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border:1px solid var(--line);border-radius:8px;font-size:13px;color:var(--ink);background:var(--bg-soft)}
 .text-link{display:block;width:max-content;margin:34px auto 0;color:var(--accent);font-size:14px;font-weight:600;border-bottom:1px solid var(--accent-soft)}
+
+/* project cards clickable */
+.project{cursor:pointer;transition:.25s}
+
+/* project detail page */
+.project-detail h1{font-size:44px;max-width:none;margin-bottom:14px}
+.project-detail .lede{color:var(--muted);font-size:17px;max-width:70ch;margin:0 0 22px}
+.project-detail-tags{margin-bottom:34px}
+.project-detail-banner{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:linear-gradient(160deg,#111 0%,#080808 100%);margin-bottom:40px}
+.project-detail-banner svg{display:block;width:100%;height:auto}
+.project-detail-body{max-width:70ch;margin-bottom:40px}
+.project-detail-body p{color:var(--muted);font-size:16px;margin:0 0 16px}
+.project-detail-body h3{font-size:19px;color:var(--ink);margin:32px 0 14px}
+.project-detail-list{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.project-detail-list li{color:var(--muted);font-size:15px;padding-left:22px;position:relative}
+.project-detail-list li::before{content:'';position:absolute;left:0;top:8px;width:8px;height:8px;border-radius:2px;background:var(--accent)}
 
 /* contact */
 .contact{text-align:left;border-top:1px solid var(--line)}

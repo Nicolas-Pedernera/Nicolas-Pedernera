@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Capa de sincronización en tiempo real con WebSockets, reconexión y broadcast multi-cliente.">
+  <title>Real-Time Sync Engine — Nicolás Pedernera</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="bg-fx" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+  <header class="nav">
+    <a class="brand" href="../index.html">Nicolás Pedernera</a>
+    <nav>
+      <a href="../index.html#proyectos">&larr; Volver a proyectos</a>
+    </nav>
+    <div class="nav-icons">
+      <a class="icon-btn" href="https://github.com/Nicolas-Pedernera" target="_blank" rel="noreferrer" aria-label="GitHub"><svg class="btn-icon" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section project-detail">
+      <p class="kicker">&lt;Proyecto/&gt;</p>
+      <h1>Real-Time Sync Engine</h1>
+      <p class="lede">Capa de sincronización en tiempo real con WebSockets, reconexión y broadcast multi-cliente.</p>
+      <div class="tags project-detail-tags"><span>TypeScript</span><span>WebSocket</span></div>
+
+      <div class="project-detail-banner"><svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="150" x2="600" y2="150" stroke="#2a2a2a" stroke-width="1"/><polyline points="0,150.0 4,151.7 8,153.4 12,155.2 16,156.9 20,158.5 24,160.0 28,161.1 32,162.0 36,162.5 40,162.6 44,162.2 48,161.4 52,160.1 56,158.3 60,156.2 64,153.6 68,150.8 72,147.8 76,144.7 80,141.5 84,138.5 88,135.7 92,133.2 96,131.2 100,129.7 104,128.9 108,128.8 112,129.4 116,130.7 120,132.8 124,135.6 128,139.0 132,143.0 136,147.4 140,152.1 144,156.9 148,161.7 152,166.3 156,170.5 160,174.1 164,177.1 168,179.2 172,180.4 176,180.6 180,179.8 184,177.9 188,175.0 192,171.2 196,166.5 200,161.1 204,155.2 208,149.0 212,142.6 216,136.4 220,130.4 224,125.1 228,120.4 232,116.7 236,114.0 240,112.5 244,112.2 248,113.2 252,115.5 256,119.0 260,123.5 264,129.0 268,135.2 272,142.1 276,149.2 280,156.4 284,163.4 288,170.0 292,175.9 296,181.0 300,185.1 304,188.0 308,189.6 312,189.9 316,188.8 320,186.5 324,182.9 328,178.3 332,172.8 336,166.5 340,159.8 344,152.8 348,145.8 352,139.0 356,132.7 360,127.0 364,122.2 368,118.5 372,115.8 376,114.3 380,114.0 384,115.0 388,117.1 392,120.2 396,124.2 400,129.0 404,134.4 408,140.1 412,146.0 416,151.9 420,157.5 424,162.7 428,167.3 432,171.2 436,174.2 440,176.3 444,177.5 448,177.7 452,177.0 456,175.4 460,173.1 464,170.0 468,166.4 472,162.5 476,158.3 480,154.0 484,149.8 488,145.8 492,142.1 496,138.9 500,136.2 504,134.1 508,132.7 512,131.9 516,131.7 520,132.2 524,133.2 528,134.8 532,136.7 536,139.0 540,141.5 544,144.2 548,146.8 552,149.4 556,151.9 560,154.1 564,156.0 568,157.6 572,158.9 576,159.7 580,160.2 584,160.3 588,160.0 592,159.5 596,158.6 600,157.5" fill="none" stroke="#8B6CFF" stroke-width="2.5"/><circle cx="60" cy="150" r="3" fill="#8B6CFF" opacity="0.6"/><circle cx="180" cy="150" r="3" fill="#8B6CFF" opacity="0.6"/><circle cx="300" cy="150" r="3" fill="#8B6CFF" opacity="0.6"/><circle cx="420" cy="150" r="3" fill="#8B6CFF" opacity="0.6"/><circle cx="540" cy="150" r="3" fill="#8B6CFF" opacity="0.6"/></svg></div>
+
+      <div class="project-detail-body">
+        <p>Una capa de sincronización de datos en tiempo real construida sobre WebSockets, pensada para mantener a múltiples clientes al día sin saturarlos ni perder la conexión cuando la red falla.</p>
+        <p>Incluye reconexión con backoff exponencial, broadcast throttleado por clave (para no inundar a un cliente con actualizaciones redundantes) y fan-out a múltiples clientes conectados simultáneamente.</p>
+        <h3>Qué resuelve</h3>
+        <ul class="project-detail-list"><li>Reconexión automática con backoff exponencial</li><li>Broadcast throttleado por clave para evitar saturación</li><li>Fan-out multi-cliente en tiempo real</li><li>Pensado para feeds de datos que cambian constantemente (ej. precios)</li></ul>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/Nicolas-Pedernera/realtime-sync-engine" target="_blank" rel="noreferrer"><svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="btn-icon" style="margin-right:8px;vertical-align:-4px"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>Ver código en GitHub</a>
+        <a class="btn" href="../index.html#proyectos">Volver a proyectos</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-mark" href="../index.html#inicio">&lt;Dev/&gt;</a>
+    <p class="footer-credit">Nicolás Pedernera — Real-Time Sync Engine</p>
+    <nav class="footer-nav">
+      <a href="../index.html#inicio">Inicio</a>
+      <a href="../index.html#proyectos">Proyectos</a>
+      <a href="../index.html#contacto">Contacto</a>
+    </nav>
+    <p class="footer-rights">© 2026 Nicolás Pedernera</p>
+  </footer>
+</body>
+</html>
