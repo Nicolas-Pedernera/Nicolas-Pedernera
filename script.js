@@ -1,0 +1,1 @@
+const links=[...document.querySelectorAll('.nav nav a')];const sections=[...document.querySelectorAll('main section[id]')];const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id))}})},{rootMargin:'-35% 0px -55%'});sections.forEach(s=>observer.observe(s));

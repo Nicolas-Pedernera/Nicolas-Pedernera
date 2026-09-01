@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nicolás Pedernera — Backend, Automation, AI & Blockchain Engineer.">
+  <title>Nicolás Pedernera — Backend / AI / Blockchain</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#inicio"><span>NP</span> Nicolás Pedernera</a>
+    <nav>
+      <a class="active" href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="icon-btn" href="https://github.com/Nicolas-Pedernera" target="_blank" rel="noreferrer" aria-label="GitHub">⌘</a>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow">BACKEND · AI · AUTOMATION · BLOCKCHAIN</div>
+        <h1>Nicolás<br><em>Pedernera</em></h1>
+        <h2>Backend / Automation / AI / Blockchain Engineer</h2>
+        <p>Construyo sistemas reales en la intersección entre backend engineering, infraestructura de tiempo real, automatización con IA y tecnología blockchain.</p>
+        <p class="zendx">↗ Founder &amp; CEO de <a href="https://zendx.finance" target="_blank" rel="noreferrer">ZendX</a></p>
+        <div class="actions">
+          <a class="btn primary" href="#proyectos">Ver proyectos →</a>
+          <a class="btn" href="https://github.com/Nicolas-Pedernera" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="#contacto">Contactarme</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="grid-glow"></div>
+        <div class="cube c1"></div><div class="cube c2"></div><div class="cube c3"></div>
+        <div class="cube c4"></div><div class="cube c5"></div>
+        <div class="hero-stats">
+          <div><b>12</b><span>Repos públicos</span></div>
+          <div><b>12</b><span>Stars</span></div>
+          <div><b>4</b><span>Áreas principales</span></div>
+          <div><b>∞</b><span>Construcción</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="expertise section">
+      <div class="section-title">ÁREAS DE ESPECIALIZACIÓN</div>
+      <div class="expertise-grid">
+        <article><span>⌁</span><h3>Backend Engineering</h3><p>APIs, microservicios, PostgreSQL, arquitectura de sistemas.</p></article>
+        <article><span>◇</span><h3>Blockchain</h3><p>Solidity, EVM, smart contracts y seguridad.</p></article>
+        <article><span>〽</span><h3>Real-Time Systems</h3><p>WebSockets, sincronización, reconexión y baja latencia.</p></article>
+        <article><span>◉</span><h3>AI &amp; Automation</h3><p>Workflows con IA, automatización y herramientas de ingeniería asistida.</p></article>
+        <article><span>↗</span><h3>Trading Infrastructure</h3><p>Order books, matching, market data y lógica financiera.</p></article>
+        <article><span>▤</span><h3>DevOps</h3><p>Docker, CI/CD, Linux y automatización de despliegues.</p></article>
+      </div>
+    </section>
+
+    <section class="stack section">
+      <div class="section-title">TECH STACK</div>
+      <div class="chips">
+        <span>TypeScript</span><span>Node.js</span><span>Solidity</span><span>Rust</span><span>PostgreSQL</span>
+        <span>Fastify</span><span>Next.js</span><span>React</span><span>Hardhat</span><span>Foundry</span><span>Docker</span>
+      </div>
+    </section>
+
+    <section id="proyectos" class="projects section">
+      <div class="section-title">PROYECTOS DESTACADOS</div>
+      <div class="project-grid">
+        <article class="project">
+          <div class="num">01</div><div class="project-icon">◉</div>
+          <h3>AI Workflow Backend</h3>
+          <p>Backend orientado a producción para orquestación de workflows con persistencia PostgreSQL, migraciones versionadas y registro on-chain.</p>
+          <div class="tags"><span>TypeScript</span><span>Node.js</span><span>PostgreSQL</span></div>
+          <a href="https://github.com/Nicolas-Pedernera/ai-workflow-backend" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </article>
+        <article class="project">
+          <div class="num">02</div><div class="project-icon">▤</div>
+          <h3>Order Matching Engine</h3>
+          <p>Limit order book con prioridad precio-tiempo, órdenes market/limit, fills parciales y cancelación.</p>
+          <div class="tags"><span>TypeScript</span><span>Node.js</span><span>Trading</span></div>
+          <a href="https://github.com/Nicolas-Pedernera/order-matching-engine" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </article>
+        <article class="project">
+          <div class="num">03</div><div class="project-icon">⬡</div>
+          <h3>MarginVault</h3>
+          <p>Trading apalancado educativo con garantía ETH, PnL, fees, oráculos y mecanismos de liquidación.</p>
+          <div class="tags"><span>Solidity</span><span>Foundry</span><span>EVM</span></div>
+          <a href="https://github.com/Nicolas-Pedernera/MarginVault" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </article>
+        <article class="project">
+          <div class="num">04</div><div class="project-icon">◌</div>
+          <h3>Real-Time Sync Engine</h3>
+          <p>Capa de sincronización en tiempo real con WebSockets, reconexión, rate limiting y broadcast multi-cliente.</p>
+          <div class="tags"><span>TypeScript</span><span>Node.js</span><span>WebSocket</span></div>
+          <a href="https://github.com/Nicolas-Pedernera/realtime-sync-engine" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </article>
+        <article class="project">
+          <div class="num">05</div><div class="project-icon">▢</div>
+          <h3>DeFi Vault Contracts</h3>
+          <p>Smart contracts de staking centrados en seguridad, CEI, reentrancy guard y pruebas que atacan activamente el contrato.</p>
+          <div class="tags"><span>Solidity</span><span>Hardhat</span><span>Chai</span></div>
+          <a href="https://github.com/Nicolas-Pedernera/defi-vault-contracts" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </article>
+        <article class="project">
+          <div class="num">06</div><div class="project-icon">⬢</div>
+          <h3>ZendX Chain</h3>
+          <p>Devnet de blockchain de ZendX con consenso, P2P, wallet y arquitectura orientada a operadores de nodos.</p>
+          <div class="tags"><span>Rust</span><span>P2P</span><span>Blockchain</span></div>
+          <a href="https://github.com/Nicolas-Pedernera/zendx-chain" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </article>
+      </div>
+      <a class="btn center-btn" href="https://github.com/Nicolas-Pedernera?tab=repositories" target="_blank" rel="noreferrer">Ver todos los repositorios →</a>
+    </section>
+
+    <section id="sobre-mi" class="about section">
+      <div>
+        <div class="section-title">SOBRE MÍ</div>
+        <h2>Construyo sistemas, no solo código.</h2>
+        <p>Mi foco está en backend engineering, automatización, infraestructura de tiempo real y blockchain. Me interesa resolver problemas complejos y convertir ideas en sistemas mantenibles y verificables.</p>
+        <p>También desarrollo ZendX, una fintech enfocada en productos financieros y tecnología blockchain.</p>
+      </div>
+      <div class="about-metrics">
+        <div><b>12</b><span>Repos públicos</span></div>
+        <div><b>11+</b><span>Tecnologías en stack</span></div>
+        <div><b>4</b><span>Especialidades</span></div>
+        <div><b>100%</b><span>Enfoque práctico</span></div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact section">
+      <div class="section-title">CONTACTO</div>
+      <h2>Construyamos algo grande.</h2>
+      <p>Abierto a proyectos freelance, colaboraciones y oportunidades donde backend, fintech, IA o blockchain sean parte del problema.</p>
+      <div class="contact-grid">
+        <a href="https://github.com/Nicolas-Pedernera" target="_blank" rel="noreferrer"><b>GitHub</b><span>@Nicolas-Pedernera</span></a>
+        <a href="https://www.linkedin.com/in/nicolas-pedernera-zendx/" target="_blank" rel="noreferrer"><b>LinkedIn</b><span>/in/nicolas-pedernera-zendx</span></a>
+        <a href="https://zendx.finance" target="_blank" rel="noreferrer"><b>ZendX</b><span>zendx.finance</span></a>
+        <a href="mailto:hola@nicolaspedernera.dev"><b>Email</b><span>Contactarme por correo</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Nicolás Pedernera · Built with code, systems thinking &amp; a little caffeine.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
