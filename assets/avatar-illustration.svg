@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="atitle adesc">
+  <title id="atitle">Ilustración de avatar profesional</title>
+  <desc id="adesc">Silueta geométrica abstracta de un desarrollador, con motivo de nodos de red y símbolo de código.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0a0e17"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="190" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#ring)" stroke-width="3"/>
+
+  <!-- abstract head/shoulders silhouette -->
+  <circle cx="200" cy="165" r="55" fill="#1e293b" stroke="#3b82f6" stroke-width="2.5"/>
+  <path d="M95,340 C95,255 145,225 200,225 C255,225 305,255 305,340 Z" fill="#1e293b" stroke="#3b82f6" stroke-width="2.5"/>
+
+  <!-- code symbol on chest -->
+  <text x="200" y="300" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="34" fill="#22c55e" font-weight="700">&lt;/&gt;</text>
+
+  <!-- orbiting nodes: backend / blockchain / realtime -->
+  <g stroke="#475569" stroke-width="1.5" fill="none">
+    <circle cx="200" cy="200" r="150" stroke-dasharray="2 6"/>
+  </g>
+  <circle cx="200" cy="50" r="10" fill="#3b82f6"/>
+  <circle cx="60" cy="230" r="10" fill="#a855f7"/>
+  <circle cx="340" cy="230" r="10" fill="#22c55e"/>
+</svg>

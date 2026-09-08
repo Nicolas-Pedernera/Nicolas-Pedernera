@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Backend+%2F+Automation+%2F+AI+%2F+Blockchain;Founder+%26+CEO+de+ZendX;Node.js+%C2%B7+Solidity+%C2%B7+PostgreSQL+%C2%B7+Rust" alt="Typing SVG" />
+</p>
+
+<p align="center">
   <img src="assets/profile-banner.svg" alt="Nicolás Pedernera — Backend, sistemas en tiempo real e ingeniería blockchain" width="100%" />
 </p>
 
@@ -8,6 +12,13 @@
   <a href="https://nicolas-pedernera.vercel.app"><img src="https://img.shields.io/badge/Portfolio-nicolas--pedernera.vercel.app-000000?logo=vercel&logoColor=white" alt="Portfolio" /></a>
 </p>
 
+<table>
+<tr>
+<td width="220" align="center">
+  <img src="assets/avatar-illustration.svg" alt="Ilustración abstracta de avatar profesional" width="200" />
+</td>
+<td>
+
 # Nicolás Pedernera
 
 Backend / Automation / AI / Blockchain Engineering
@@ -15,6 +26,10 @@ Backend / Automation / AI / Blockchain Engineering
 Systems Engineer (Universidad de Buenos Aires, 2024). Founder & CEO of [ZendX](https://zendx.finance) — a fintech platform combining P2P lending, trading/exchange, prediction markets, a card product, and a custom Layer 1 blockchain.
 
 I work across the full stack of a real fintech product: backend APIs, real-time data infrastructure, PostgreSQL persistence, and Solidity smart contracts running on our own EVM-compatible chain.
+
+</td>
+</tr>
+</table>
 
 ## What I work on
 
@@ -25,17 +40,8 @@ I work across the full stack of a real fintech product: backend APIs, real-time 
 
 ## Tech stack
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white" alt="Solidity" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Fastify-black?logo=fastify&logoColor=white" alt="Fastify" />
-  <img src="https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Hardhat-yellow?logo=hardhat&logoColor=black" alt="Hardhat" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Rust-orange?logo=rust&logoColor=white" alt="Rust" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,solidity,postgres,rust,nextjs,react,docker,git,github" alt="Iconos del stack técnico" />
 </p>
 
 ## Featured projects
@@ -54,6 +60,14 @@ I work across the full stack of a real fintech product: backend APIs, real-time 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Nicolas-Pedernera&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Estadísticas de GitHub de Nicolas-Pedernera" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas-Pedernera&layout=compact&theme=dark&hide_border=true" alt="Lenguajes más usados por Nicolas-Pedernera" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Nicolas-Pedernera&theme=dark&hide_border=true" alt="Racha de contribuciones de Nicolas-Pedernera" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nicolas-Pedernera&theme=react-dark&hide_border=true" alt="Gráfico de actividad de Nicolas-Pedernera" width="100%" />
 </p>
 
 ## Contact
