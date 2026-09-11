@@ -49,7 +49,7 @@ Middleware platform for orchestrating business integrations across Latin America
 ## Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,nextjs,solidity,rust,postgres,mongodb,redis,supabase,firebase,graphql,aws,tailwind,express,prisma,docker,bash,linux,vscode,git,github" alt="Iconos del stack técnico" />
+  <img src="https://skillicons.dev/icons?i=html,css,ts,js,py,nodejs,npm,react,nextjs,solidity,rust,postgres,mongodb,redis,supabase,firebase,graphql,aws,tailwind,express,prisma,docker,bash,linux,vscode,git,github,githubactions,nginx,kubernetes" alt="Iconos del stack técnico" />
 </p>
 
 ## Featured projects
