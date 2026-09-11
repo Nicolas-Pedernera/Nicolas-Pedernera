@@ -16,7 +16,7 @@
 <table>
 <tr>
 <td width="220" align="center">
-  <img src="assets/avatar-illustration.svg" alt="Ilustración abstracta de avatar profesional" width="200" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&duration=2200&pause=900&color=22C55E&background=0D1117&center=true&vCenter=true&multiline=true&width=220&height=150&lines=%24+whoami;nicolas-pedernera;%24+git+push+origin+main;%E2%9C%93+deploy+ok;%24+solidity+compile;%E2%9C%93+contracts+verified" alt="Terminal animada escribiendo comandos" width="220" />
 </td>
 <td>
 
@@ -51,7 +51,7 @@ Middleware platform for orchestrating business integrations across Latin America
 ## Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,solidity,postgres,rust,nextjs,react,docker,git,github" alt="Iconos del stack técnico" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,nextjs,solidity,rust,postgres,supabase,firebase,render,graphql,docker,bash,git,github" alt="Iconos del stack técnico" />
 </p>
 
 ## Featured projects
