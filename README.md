@@ -46,13 +46,7 @@ I work across the full stack of real production systems: backend APIs, real-time
 Fintech platform combining P2P lending, trading/exchange, prediction markets, a card product, and a custom Layer 1 blockchain.
 
 **RemyStack** — B2B Integration Infrastructure
-Middleware platform for orchestrating business integrations across Latin America. Focused on:
-- API integrations
-- Event orchestration
-- Asynchronous processing
-- Multi-tenant architecture
-- Connector ecosystems
-- Enterprise infrastructure
+Middleware platform for orchestrating business integrations across Latin American enterprises.
 
 ## Tech stack
 
