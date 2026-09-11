@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Nicolás Pedernera — Backend, sistemas en tiempo real e ingeniería blockchain" width="100%" />
+  <img src="baner-nicolas-pedernera.png" alt="Nicolás Pedernera — Backend, sistemas en tiempo real e ingeniería blockchain" width="100%" />
 </p>
 
 <p align="center">
