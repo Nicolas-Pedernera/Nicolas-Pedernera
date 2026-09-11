@@ -66,8 +66,8 @@ Middleware platform for orchestrating business integrations across Latin America
 ## GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nicolas-Pedernera&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Estadísticas de GitHub de Nicolas-Pedernera" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas-Pedernera&layout=compact&theme=dark&hide_border=true" alt="Lenguajes más usados por Nicolas-Pedernera" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nicolas-Pedernera&show_icons=true&theme=dark&hide_border=true&count_private=true&cache_seconds=1800" alt="Estadísticas de GitHub de Nicolas-Pedernera" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas-Pedernera&layout=compact&theme=dark&hide_border=true&cache_seconds=1800" alt="Lenguajes más usados por Nicolas-Pedernera" height="165" />
 </p>
 
 <p align="center">
