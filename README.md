@@ -15,12 +15,10 @@
 
 <table>
 <tr>
-<td width="220" align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&duration=2200&pause=900&color=22C55E&background=0D1117&center=true&vCenter=true&multiline=true&width=220&height=150&lines=%24+whoami;nicolas-pedernera;%24+git+push+origin+main;%E2%9C%93+deploy+ok;%24+solidity+compile;%E2%9C%93+contracts+verified" alt="Terminal animada escribiendo comandos" width="220" />
+<td width="340" align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&duration=2200&pause=900&color=22C55E&background=0D1117&center=true&vCenter=true&multiline=true&width=340&height=230&lines=%24+whoami;nicolas-pedernera;%24+git+push+origin+main;%E2%9C%93+deploy+ok;%24+solidity+compile;%E2%9C%93+contracts+verified" alt="Terminal animada escribiendo comandos" width="340" />
 </td>
 <td>
-
-# Nicolás Pedernera
 
 Backend / Automation / AI / Blockchain Engineering
 
@@ -51,7 +49,7 @@ Middleware platform for orchestrating business integrations across Latin America
 ## Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,nextjs,solidity,rust,postgres,supabase,firebase,render,graphql,docker,bash,git,github" alt="Iconos del stack técnico" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,nextjs,solidity,rust,postgres,mongodb,redis,supabase,firebase,graphql,aws,tailwind,express,prisma,docker,bash,linux,vscode,git,github" alt="Iconos del stack técnico" />
 </p>
 
 ## Featured projects
