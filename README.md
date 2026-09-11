@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Backend+%2F+Automation+%2F+AI+%2F+Blockchain;Founder+%26+CEO+de+ZendX;Node.js+%C2%B7+Solidity+%C2%B7+PostgreSQL+%C2%B7+Rust" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Backend+%2F+Automation+%2F+AI+%2F+Blockchain;Founder+%26+CEO+de+ZendX;Founder+de+RemyStack;Node.js+%C2%B7+Solidity+%C2%B7+PostgreSQL+%C2%B7+Rust" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://zendx.finance"><img src="https://img.shields.io/badge/ZendX-zendx.finance-3b82f6" alt="ZendX" /></a>
+  <img src="https://img.shields.io/badge/RemyStack-B2B%20Integration%20Infrastructure-8B5CF6" alt="RemyStack" />
   <a href="https://www.linkedin.com/in/nicolas-pedernera-zendx/"><img src="https://img.shields.io/badge/LinkedIn-Nicolas--Pedernera-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://nicolas-pedernera.vercel.app"><img src="https://img.shields.io/badge/Portfolio-nicolas--pedernera.vercel.app-000000?logo=vercel&logoColor=white" alt="Portfolio" /></a>
 </p>
@@ -23,9 +24,9 @@
 
 Backend / Automation / AI / Blockchain Engineering
 
-Systems Engineer (Universidad de Buenos Aires, 2024). Founder & CEO of [ZendX](https://zendx.finance) — a fintech platform combining P2P lending, trading/exchange, prediction markets, a card product, and a custom Layer 1 blockchain.
+Systems Engineer (Universidad de Buenos Aires, 2024). Founder & CEO of [ZendX](https://zendx.finance) — a fintech platform combining P2P lending, trading/exchange, prediction markets, a card product, and a custom Layer 1 blockchain. Also founder of **RemyStack**, a B2B integration middleware platform for orchestrating business workflows across Latin American enterprises.
 
-I work across the full stack of a real fintech product: backend APIs, real-time data infrastructure, PostgreSQL persistence, and Solidity smart contracts running on our own EVM-compatible chain.
+I work across the full stack of real production systems: backend APIs, real-time data infrastructure, PostgreSQL persistence, Solidity smart contracts running on our own EVM-compatible chain, and multi-tenant integration infrastructure connecting enterprise systems.
 
 </td>
 </tr>
@@ -36,7 +37,22 @@ I work across the full stack of a real fintech product: backend APIs, real-time 
 - **Backend & APIs** — Node.js, TypeScript, Fastify, PostgreSQL
 - **Real-time systems** — WebSocket architectures with reconnection handling, rate limiting, and multi-client broadcast
 - **Blockchain & Solidity** — smart contract design with a security-first mindset (Checks-Effects-Interactions, reentrancy guards, access control)
+- **Integration infrastructure** — API orchestration, event-driven architecture, asynchronous processing, and multi-tenant systems
 - **AI-assisted engineering** — using AI coding tools daily, always with deliberate review rather than blind acceptance
+
+## Companies
+
+**[ZendX](https://zendx.finance)** — Fintech & P2P · Crypto · Global
+Fintech platform combining P2P lending, trading/exchange, prediction markets, a card product, and a custom Layer 1 blockchain.
+
+**RemyStack** — B2B Integration Infrastructure
+Middleware platform for orchestrating business integrations across Latin America. Focused on:
+- API integrations
+- Event orchestration
+- Asynchronous processing
+- Multi-tenant architecture
+- Connector ecosystems
+- Enterprise infrastructure
 
 ## Tech stack
 
